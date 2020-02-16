@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Create a New Event</title>
+    <link rel="stylesheet" href="style.css">
+	<script src = "event.js"></script>
+</head>
+<body>
+    <h1>EVENT FORM</h1>
+    <div class = "box">
+    <form>
+        <label>Event Type: </label>
+        <select id='type' required>
+            <option value="Conference">Conference</option>
+            <option value="Seminar">Seminar</option>
+            <option value="Meeting">Meeting</option>
+            <option value="Team Building">Team Building</option>
+            <option value="Trade show">Trade Show</option>
+            <option value="Business dinner">Business dinner</option>
+            <option value="Press Conference">Press Conference</option>
+            <option value="Trade Fair">Trade Fair</option>
+            <option value="Award Ceremony">Award Ceremony</option>
+            <option value="Wedding">Wedding</option>
+            <option value="Birthday Celebration">Birthday Celebration</option>            
+        </select> <br>
+
+        <label>Event Title: <input type="text" id="title" REQUIRED></label><br></br>
+        <label>Event Dates: <input type="date" id = "date" REQUIRED></label>
+        <label>to <input type ="date" id ="to" REQUIRED></label><br></br>
+        <label>Posting Date: <input type="date" id = "post" REQUIRED></label><br></br>
+        <input type="checkbox" id="req" name="req"/>
+        <label for = "same">Is Registration Required?</label><br></br>
+        <input type="checkbox" id="prog" name="prog"/>
+        <label for = "same">Is this event associated with any Family Programs?</label><br></br>
+        <input type="checkbox" id="comp" name="comp"/>
+        <label for = "same">Upon Registration Completion, Are Users to Receive an Auto Generated Email?</label><br></br>
+        <input type="checkbox" id="point" name="point"/>
+        <label for = "same">Is There a Point of Contact?</label><br></br>
+        <input type="checkbox" id="host" name="host"/>
+        <label for = "same">Is There a Hosting Command Point of Contact?</label><br></br>
+        <input type = "submit" value = "Submit" onclick="Submit()"/>
+        <input type = "button" value = "Cancel"/>
+
+    </form><br></br>
+</div>
+</body>
+</html>

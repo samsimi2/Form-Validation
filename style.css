@@ -1,0 +1,17 @@
+h1{
+    text-align: center;     
+    font-family: 'Comic Sans', 'Times new roman', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.box{
+    border: 2mm;
+    text-align: center;
+    border-style: inset;
+    max-width: 18cm;
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+label{
+    font-family: 'Comic Sans', 'Times new roman', 'Calibri', 'Trebuchet MS', sans-serif;
+}
